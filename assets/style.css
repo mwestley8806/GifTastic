@@ -1,0 +1,25 @@
+
+
+#header {
+    text-align: center;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    background: lightseagreen;
+}
+
+#search {
+    background: seagreen;
+    padding: 10px;
+}
+
+#buttons {
+    background: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#gifs {
+    background: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
