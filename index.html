@@ -9,27 +9,41 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet"> 
     </head>
 
-    <body bgcolor="black">
+    <body>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <div id=container>
             <div id="header" class="col-md-12">
                 <h1>It's GifTastic: Movie Edition!</h1>
                 <h3>Click on your favorite movie below and see what pops up! Or add a movie to the list!</h3>
             </div>
             <div id="search" class="col-md-12">
-                    <form class="form-inline">
+                    <!-- <form class="form-inline" id="addMovie">
                             <div class="form-group pull-right">
-                              <input type="text" class="form-control float-right" id="exampleInputName2" placeholder="Search More Movies">
+                              <input type="text" class="form-control" placeholder="Search More Movies">
                             </div>
-                            <button type="submit" class="btn btn-default pull-right">Search</button>
-                          </form>
+                            <button type="submit" id="typeMovie" class="btn btn-default pull-right">Search</button>
+                          </form> -->
+                          <form id="newMovie">
+                                <!-- <label for="movie-input">Add a Movie</label> -->
+                                <input type="text" id="movie-input"><br>
+                                <input id="add-movie" type="submit" value="Add a Movie">
+                              </form>
             </div>
-            <div id="buttons" class="col-md-4">
-                <p>Buttons</p>
+            <div id="buttonSpace" class="col-md-4">
+                <h2>Movies to Chose From!</h2>
             </div>
             <div id="gifs" class="col-md-8">
-                <p>Gifts</p>
+                <h2>Enjoy These Gifs! Click to See What Happens!</h2>
             </div>
         </div>
+
+        <style>
+            body {
+                background: black;
+            }
+        </style>
+
+        <script src="assets/giphy.js"></script>
     </body>
 
 </html>

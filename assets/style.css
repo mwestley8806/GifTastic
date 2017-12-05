@@ -12,14 +12,26 @@
     padding: 10px;
 }
 
-#buttons {
+#buttonSpace {
     background: black;
     color: white;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
 
 #gifs {
     background: black;
     color: white;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+}
+
+.movieName {
+    color: red;
+    background: lightseagreen;
+    margin: 9px;
+    /* font-family: 'Poppins', sans-serif; */
 }
